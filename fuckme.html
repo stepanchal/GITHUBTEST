@@ -8,11 +8,18 @@
 <body>
     <h1>ahojte</h1>
     <div> cusik</div>
+    <div id="demo"></div>
     <script>
+        
+        function myDisplayer(some) {
+            document.getElementById("demo").innerHTML = some;
+        }
 
         function myFirst() {
-            myDisplayer("hello")
+            myDisplayer("hello");
         }
+
+        myFirst();
     </script>
 </body>
 </html>
